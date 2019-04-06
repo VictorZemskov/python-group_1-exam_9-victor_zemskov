@@ -1,7 +1,5 @@
 from django.db import models
 from django.urls import reverse
-import random
-import string
 from django.conf import settings
 from django.contrib.auth.models import User
 from django.utils.timezone import now
@@ -12,9 +10,6 @@ class RegistrationToken(models.Model):
     created_at = models.DateTimeField(auto_now=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
-    # проверка, что токен истёк: находим разницу между двумя датами,
-    # переводим её в часы и сравниваем с допустимым возрастом токена в часах,
-    # указанным в настройках.
     def is_expired(self):
         delta = now() - self.created_at
         delta_hours = delta.total_seconds() / 3600
@@ -47,7 +42,7 @@ class Product(models.Model):
         return self.name
 
 class ProductPhoto(models.Model):
-    product = models.ForeignKey('Product', related_name='product_photos', on_delete=models.PROTECT)
+    product = models.ForeignKey(Product, related_name='photos', on_delete=models.PROTECT)
     photo = models.ImageField(upload_to='photos')
     is_deleted = models.BooleanField(default=False)
 

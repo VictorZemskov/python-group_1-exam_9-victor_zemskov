@@ -57,4 +57,4 @@ class ProductList extends Component {
 }
 
 
-export default MovieList;
+export default ProductList;
