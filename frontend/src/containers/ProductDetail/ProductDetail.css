@@ -1,0 +1,18 @@
+.slide {
+	position: relative;
+}
+.position {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 60%;
+}
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid #5bbc2e;
+}
+.carousel-indicators .active {
+	background: #5bbc2e;
+}

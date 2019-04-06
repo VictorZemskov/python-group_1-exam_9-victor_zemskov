@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {PRODUCTS_URL} from "../../api-urls";
 import ProductCategories from "../../components/ProductCategories/ProductCategories";
 import axios from 'axios';
-
+import a from '../../logo.svg'
 
 // компонент, который выводит одну карточку с фильмом
 // фильм также загружается при выводе компонента на экран (mount),
@@ -42,11 +42,15 @@ class ProductDetail extends Component {
         const {name, photos, description, price,category, id} = this.state.product;
         return <div>
             {/* постер, если есть */}
-            {photos ? <div className='row'>
+            {photos.length > 0 ? <div className='row'>
                 <div className="col col-xs-10 col-sm-8 col-md-6 col-lg-4 mx-auto">
                     <img className="img-fluid rounded" src={photos[0].photo} alt={"фото"}/>
                 </div>
-            </div> : null}
+            </div> : <div className='row'>
+                <div className="col col-xs-10 col-sm-8 col-md-6 col-lg-4 mx-auto">
+                    <img className="img-fluid rounded" src={a}/>
+                </div>
+            </div>}
 
             {/* название фильма */}
             <h1>{name}</h1>

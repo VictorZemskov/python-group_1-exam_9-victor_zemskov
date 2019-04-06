@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
+import a from '../../../logo.svg'
 
 
 // компонент, который представляет собой карточку, основанную на стилях Bootstrap,
@@ -10,7 +11,7 @@ import {NavLink} from 'react-router-dom'
 const Card = props => {
     // const isAdmin = localStorage.getItem('is_admin');
     return <div className={"card mt-3 text-center text-sm-left " + (props.className ? props.className : "")}>
-        {props.image[0] ? <img className="card-img-top" src={props.image[0].photo}/> : null}
+        {props.image[0] ? <img className="card-img-top" src={props.image[0].photo}/> : <img className="card-img-top" src={a}/>}
         {props.header || props.text || props.link ? <div className="card-body">
             {props.header ? <h5 className="card-title">{props.header}</h5> : null}
             {props.text ? <p className="card-text">{props.text}</p> : null}
