@@ -3,6 +3,7 @@ import {PRODUCTS_URL} from "../../api-urls";
 import ProductCategories from "../../components/ProductCategories/ProductCategories";
 import axios from 'axios';
 import a from '../../logo.svg'
+import SimpleSlider from "../../components/UI/Slider/Slider";
 
 // компонент, который выводит одну карточку с фильмом
 // фильм также загружается при выводе компонента на экран (mount),
@@ -43,8 +44,9 @@ class ProductDetail extends Component {
         return <div>
             {/* постер, если есть */}
             {photos.length > 0 ? <div className='row'>
-                <div className="col col-xs-10 col-sm-8 col-md-6 col-lg-4 mx-auto">
-                    <img className="img-fluid rounded" src={photos[0].photo} alt={"фото"}/>
+                <div className="col col-xs-10 col-sm-8 col-md-6 col-lg-4 mx-auto card m-3" style={{"width": "40rem"}}>
+                    {/*<img className="img-fluid rounded" src={photos[0].photo} alt={"фото"}/>*/}
+                    <SimpleSlider photos={photos}/>
                 </div>
             </div> : <div className='row'>
                 <div className="col col-xs-10 col-sm-8 col-md-6 col-lg-4 mx-auto">
