@@ -1,0 +1,435 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "\u0425\u043b\u0435\u0431",
+    "description": "\u0412\u044b\u043f\u0435\u0447\u043a\u0430",
+    "date_of_entry": "2019-04-06",
+    "price": "20.00",
+    "is_deleted": false,
+    "category": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "\u041c\u043e\u043b\u043e\u043a\u043e",
+    "description": "",
+    "date_of_entry": "2019-04-05",
+    "price": "45.50",
+    "is_deleted": false,
+    "category": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "\u041f\u044b\u043b\u0435\u0441\u043e\u0441",
+    "description": "\u043c\u043e\u044e\u0449\u0438\u0439",
+    "date_of_entry": "2019-04-04",
+    "price": "5750.00",
+    "is_deleted": false,
+    "category": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440",
+    "description": "LED",
+    "date_of_entry": "2019-04-03",
+    "price": "35750.00",
+    "is_deleted": false,
+    "category": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u043e\u0448\u0438",
+    "description": "\u0440\u0435\u0437\u0438\u043d\u043e\u0432\u044b\u0435",
+    "date_of_entry": "2019-04-02",
+    "price": "123.55",
+    "is_deleted": false,
+    "category": [
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "name": "\u0428\u0430\u043f\u043a\u0430",
+    "description": "\u0443\u0448\u0430\u043d\u043a\u0430",
+    "date_of_entry": "2019-04-01",
+    "price": "355.45",
+    "is_deleted": false,
+    "category": [
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "name": "\u041a\u0430\u0441\u0442\u0440\u044e\u043b\u044f",
+    "description": "",
+    "date_of_entry": "2019-03-31",
+    "price": "1500.35",
+    "is_deleted": false,
+    "category": [
+      4
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
+  "fields": {
+    "name": "\u0411\u043b\u0435\u043d\u0434\u0435\u0440",
+    "description": "",
+    "date_of_entry": "2019-03-30",
+    "price": "3450.25",
+    "is_deleted": false,
+    "category": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 9,
+  "fields": {
+    "name": "\u0411\u0430\u0442\u043e\u043d",
+    "description": "",
+    "date_of_entry": "2019-03-29",
+    "price": "25.50",
+    "is_deleted": false,
+    "category": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "photo": "photos/26fda80c9b011106f16ecaba79adc578_l_UHXQcJN.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "photo": "photos/104258-ed4_wide_RTQ1yJ9.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "photo": "photos/-xleb-v-multivarke-rjanoi-xleb-v-multivarke_1494892065_1_max.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "photo": "photos/milk_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "photo": "photos/milk_2.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "photo": "photos/milk_3.jpeg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 7,
+  "fields": {
+    "product": 3,
+    "photo": "photos/pyl_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "photo": "photos/pyl_2.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "photo": "photos/pyl_3.webp",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "photo": "photos/tel_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "photo": "photos/tel_2.jpeg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "photo": "photos/tel_3.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 13,
+  "fields": {
+    "product": 5,
+    "photo": "photos/kaloshi_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "photo": "photos/kaloshi_2.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "photo": "photos/kaloshi_3.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "photo": "photos/shapka_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "photo": "photos/shapka_2.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 18,
+  "fields": {
+    "product": 6,
+    "photo": "photos/shapka_3.jpeg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 19,
+  "fields": {
+    "product": 7,
+    "photo": "photos/kas_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 20,
+  "fields": {
+    "product": 7,
+    "photo": "photos/kas_2.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 21,
+  "fields": {
+    "product": 7,
+    "photo": "photos/kas_3.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 22,
+  "fields": {
+    "product": 8,
+    "photo": "photos/blen_1.jpg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 23,
+  "fields": {
+    "product": 8,
+    "photo": "photos/blen_2.jpeg",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.productphoto",
+  "pk": 24,
+  "fields": {
+    "product": 8,
+    "photo": "photos/blen_3.webp",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 1,
+  "fields": {
+    "name": "\u0422\u0435\u0445\u043d\u0438\u043a\u0430",
+    "description": "\u0411\u044b\u0442\u043e\u0432\u0430\u044f \u0442\u0435\u0445\u043d\u0438\u043a\u0430",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 2,
+  "fields": {
+    "name": "\u041e\u0434\u0435\u0436\u0434\u0430",
+    "description": "\u0448\u043c\u043e\u0442\u043a\u0438",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 3,
+  "fields": {
+    "name": "\u0415\u0434\u0430",
+    "description": "\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u044b \u043f\u0438\u0442\u0430\u043d\u0438\u044f",
+    "is_deleted": false
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 4,
+  "fields": {
+    "name": "\u041f\u043e\u0441\u0443\u0434\u0430",
+    "description": "\u041a\u0443\u0445\u043e\u043d\u043d\u0430\u044f \u0443\u0442\u0432\u0430\u0440\u044c",
+    "is_deleted": false
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$QZsjcFFuw6Hc$tirKQPeUGqvesf63yHDNz5w1WVbRCAZQ4aDPXh2o1ko=",
+    "last_login": "2019-04-06T06:56:20.560Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-04-05T14:50:38.370Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$fOplflKY27xq$Zya7de0bJFRte33Cirl2RbTPj4Tb9DWkG5Yexq8GGus=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Bill",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-04-06T08:21:20Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$luUEjqENGqsS$qbij9nldsP62+qRbTF1rqOZRGWS+sLLIXHbEyIglbq4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Bob",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-04-06T08:24:02Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
